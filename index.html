@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Encriptador de Texto</h1>
+        </header>
+        
+        <div class="content">
+            <div class="left-section">
+                <textarea id="input-text" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="options">
+                    <label>
+                        <input type="checkbox" id="lowercase-only">
+                        Solo letras minúsculas y sin acentos
+                    </label>
+                </div>
+                <div class="buttons">
+                    <button id="encrypt-btn" class="btn-primary">Encriptar</button>
+                    <button id="decrypt-btn" class="btn-secondary">Desencriptar</button>
+                </div>
+            </div>
+            
+            <div class="right-section">
+                <div class="output-area">
+                    <textarea id="output-text" readonly placeholder="Aquí aparecerá el resultado."></textarea>
+                </div>
+                <button id="copy-btn" class="btn-secondary">Copiar</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>Desarrollado por Carlos Lorenzo.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

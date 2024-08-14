@@ -1,0 +1,103 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #3544b4;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.left-section, .right-section {
+    width: 48%;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+textarea::placeholder {
+    color: #bbb;
+}
+
+.options {
+    margin: 15px 0;
+}
+
+.options label {
+    font-size: 14px;
+    color: #555;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #3544b4;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #f4f4f4;
+    color: #3544b4;
+    border: 2px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
